@@ -12,11 +12,10 @@ import org.junit.runner.RunWith;
                 "rerun:target/rerun.txt",
                 "html:target/default-html-reports"},
         glue = "com/academiclibus/stepdefinitions",
-        dryRun = true
+        dryRun = false
 
 )
 
 public class CukesRunner {
-
 
 }
