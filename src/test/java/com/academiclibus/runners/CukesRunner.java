@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
                 "html:target/default-html-reports"},
         glue = "com/academiclibus/stepdefinitions",
         dryRun = false
-
 )
 
 public class CukesRunner {
