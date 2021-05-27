@@ -1,0 +1,119 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6247786800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user is on the dashboard page",
+            "match": {
+              "location": "com.academiclibus.stepdefinitions.Logout.the_user_is_on_the_dashboard_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-27T15:18:46.324Z",
+        "line": 5,
+        "name": "Verify that the log out button is located under username dropdown",
+        "description": "",
+        "id": "user-should-be-able-to-log-out;verify-that-the-log-out-button-is-located-under-username-dropdown",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2008828700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user navigates to the top corner of the page",
+            "match": {
+              "location": "com.academiclibus.stepdefinitions.Logout.user_navigates_to_the_top_corner_of_the_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2104154700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clicks on the user name item",
+            "match": {
+              "location": "com.academiclibus.stepdefinitions.Logout.clicks_on_the_user_name_item()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2048456400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the logout button should be clickable",
+            "match": {
+              "location": "com.academiclibus.stepdefinitions.Logout.the_logout_button_should_be_clickable()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2754003300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks the button",
+            "match": {
+              "location": "com.academiclibus.stepdefinitions.Logout.user_clicks_the_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2031609800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should be in the login page",
+            "match": {
+              "location": "com.academiclibus.stepdefinitions.Logout.user_should_be_in_the_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@logout"
+          }
+        ]
+      }
+    ],
+    "name": "User should be able to Log out",
+    "description": "",
+    "id": "user-should-be-able-to-log-out",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/logout.feature",
+    "tags": [
+      {
+        "name": "@logout",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
